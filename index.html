@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta lang="pt-BR">
+    <link rel="favicon.ico" href="favicon_io/favicon.ico">
+    <link rel="apple-touch-icon" href="favicon_io/apple-touch-icon.png"         sizes="180x180" type="image/png">
+    <link rel="icon"  href="favicon_io/favicon-32x32.png" sizes="32x32"         type="image/png">
+    <link rel="icon"  href="favicon_io/favicon-16x16.png" sizes="16x16"         type="image/png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Aprendiz de programação</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <h1>Aprendiz de Programação</h1>
+
+    <section id="about">
+      <p>Esse site é um projeto de estudo... Ou seria um estudo de projeto? Não tenho certeza. Mas, se eu fosse colocar um "sobre" nessa página, eu linkaria para essa explicação. Entretanto, como é a primeira coisa a ser vista, um link é desnecessário - pelo menos enquanto não aprendo a ser mais sucinta nessa parte. Poderia, por exemplo, apresentar nessa primeira parte até o ponto de interrogação (?), e um "saber mais", linkado com um "sobre essa página" para apresentar o restinho desse texto. Quem sabe eu não faça isso mais pra frente?</p>
+    </section>
+
+    <nav class="menu">
+      <li><a href="#atv1">Atividade 1</a></li>
+      <li><a href="#atv2">Atividade 2</a></li>
+      <li><a href="#atv3">Atividade 3</a></li>
+      <li><a href="#atv4">Atividade 4</a></li>
+      <li><a href="#atv5">Atividade 5</a></li>
+      <li><a href="#atv6">Atividade 6</a></li>
+    </nav>
+
+    <section id="atv1">
+      <h2> Atividade 1 (Bootcamp) - Code.org</h2>
+
+      <p> Eu queria só colocar uma explicação básica e incluir o "código" do Minecraft aqui, entretanto, ainda não aprendi como fazer isso... Portanto, vou apenas incluir o link a seguir:</p>
+        
+      <button onclick="mineCraft()" class="bMine"> Veja o resultado do jogo que "codifiquei" clicando aqui! </button></div>
+
+      <p> Depois de muito tempo pesquisando e batendo a cabeça, consegui fazer o <button class="butao"> botão</button> abrir a página numa nova aba! Parabéns pra mim! Ah, encontrei a resposta no site <a href="https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_win_open" target="blank">w3schools</a>.</p>
+
+      <div><button onclick="voltar()" class="bvoltar">Voltar ao menu principal</button></div>
+    </section>  
+
+    <section id="atv2"> 
+      <h2> Atividade 2 (Bootcamp) - Tomada de decisões e expressões</h2>
+
+      <p> Bem, ainda não expliquei, mas estou criando esse site enquanto faço as atividades do Bootcamp DIO-Avanade. Infelizmente não conseguirei a vaga, porque só depois de inscrita percebi que é pra quem está na faculdade, e eu já sou formada, mas... Enfim, vamos nessa...</p>
+      <p> A segunda atividade sugerida - que eu percebi e/ou fiquei afim de realizar - é para saber se os funcionários de uma loja vão receber uma comissão de 10% das vendas realizadas</p>
+      
+        <section>
+          <h3> Você é a funcionária! </h3>
+        
+          <p class="parag"> Preencha os campos abaixo com o valor das vendas realizadas nos meses determinados (Coloque um valor qualquer - dica: acima de R$1000!):</p>
+            <form>
+              <label for="jan" class="tabela">Janeiro:</label><input type="number" id="jan" name="jan" class="table"><br>
+              <label for="fev" class="tabela">Fevereiro:</label><input type="number" id="fev" name="fev" class="table"><br>
+              <label for="mar" class="tabela">Março:</label><input type="number" id="mar" name="mar" class="table"><br>
+              <label for="abr" class="tabela">Abril:</label><input type="number" id="abr" name="abr" class="table"><br>
+              <div><button onclick="media()" class="calc">Calcular</button></div>
+            </form>
+              
+        </section><br>
+      <p> Mais uma vez sofri por horas pra descobrir como fazer esse cálculo, pensando no que havia aprendido anteriormente... Entretanto, acho que agora consegui entender que "objetos clicáveis" podem realizar uma função no JavaScript, assim que se indique o "onclick=função()" como atributo do "objeto clicável"... 
+      <div> <button onclick="voltar()" class="bvoltar">Voltar ao menu principal</button> </div>
+    </section>
+
+    <section id="atv3">
+      <h2> Atividade 3 (Bootcamp) - Repetições - tabuada do 9</h2>
+
+      <p>Nessa atividade, como está escrito no título, é para apresentar a tabuada do 9. Acredito que não seja tão difícil, pois é só colocar um "while" e depois somar 9 ao número inicial... Agora, o que deixa difícil, pra mim, é como imprimir essas informações aqui... Vou tentar fazer algo simples, como um "alert" ao clicar o botão abaixo, para que apareça a tabuada do 9 como resposta... </p>
+
+      <nav class="tabuadas">
+        <button onclick="tabuada1()" class="tab">Tabuada do 1</button>
+        <button onclick="tabuada2()" class="tab">Tabuada do 2</button>
+        <button onclick="tabuada3()" class="tab">Tabuada do 3</button>
+        <button onclick="tabuada4()" class="tab">Tabuada do 4</button>
+        <button onclick="tabuada5()" class="tab">Tabuada do 5</button>
+        <button onclick="tabuada6()" class="tab">Tabuada do 6</button>
+        <button onclick="tabuada7()" class="tab">Tabuada do 7</button>
+        <button onclick="tabuada8()" class="tab">Tabuada do 8</button>
+        <button onclick="tabuada9()" class="tab">Tabuada do 9</button>
+      </nav>
+      
+      <p>Essa atividade foi mais fácil de realizar, eu já sabia do "var", da "function" e do "while"... Tinha só que entender como indicar ao programa que era pra somar 9 à variável até que chegasse ao 9x10... Estava presa ao "if" e ao "true", mas nada disso era necessário...</p>
+      <p>Vocês podem se perguntar sobre o motivo de eu não ter fixado um botão para voltar ao início, ao invés de colocar no final de cada atividade... Bem, a primeira resposta é porque eu quis. E a segunda é: porque eu achei mais legal ter o botão só no final de cada "Exercício/Atividade"... ao invés de um botão flutuante... (Eu vi como fazer, não é difícil. Mas é isso...)</p>
+      <p>Enfim, resolvi adicionar todas as tabuadas do 1 ao 9, pra entender como faz essa grade ali, e praticar a criação de funções.</p>
+
+      <h3> Atividade 3.1</h3>
+      <p class="parag"> Agora a atividade é pra que a usuária escolha a tabuada, a partir de um "input". Vamos tentar:</p>
+        
+      <label for="tab"class="tabuada">Escolha a tabuada de 1 a 9:</label><br><input id="tab" type="number" name="tab"class="bMine">
+      <button onclick="tab()" class="calc">Calcular</button>
+      <p> Mantive todas as funções da grade anterior porque achei legal o desenho, entretanto, acabei de descobrir uma forma de função que atenderia a qualquer tabuada que a usuária quisesse (aqui, no caso, do 1 ao 9...)
+      <div><button onclick="voltar()" class="bvoltar">Voltar ao menu principal</button></div>
+      </section>
+
+    <section id="atv4">
+      <h2> Atividade 4 (desafio Elas Codam) - Listas</h2>
+      <p> O desafio <a href="https://participe-elascodam.kenzie.com.br/desafios" target="blank"> Elas Codam</a> é/foi proposto pela Kenzie Academy junto a DuplaTech... E também está ensinando sobre conceitos básicos como HTML, CSS e JavaScript...</p>
+      <p> O primeiro Exercício prático foi criar duas listas... Uma ordenada, sobre filmes preferidos e uma desordenada, pra <i lang="en">hobbies</i>. Para isso utilizamos as tags "ol" (<i lang="en">Ordered List</i>/Lista Ordenada) e "ul"(<i lang="en">Unordered List</i>/Lista Desordenada). Ah, e dentro de cada uma, para os itens ficarem um em cada linha, bem bonitinho, tem que usar o &lt;li> e o &lt;/li>, senão ficam um ao lado do outro. Fácil, simples, tranquilo. Sem nenhum desafio (eu acho).</p>
+        <h3> Aí vai!</h3>
+        <h4> Meus Filmes Preferidos</h4>
+        <ol>
+          <li><i lang="en">Les Miserables</i></li>
+          <li>Senhor dos Anéis</li>
+          <li>Meia noite em Paris</li>
+          <li>O Auto da Compadecida</li>
+          <li><i lang="es">La Lengua de las Mariposas</i></li>
+          <li><i lang="en">PadMan</i></li>
+        </ol>
+        <h4> Meus <i lang="en">hobbies</i></h4>
+        <ul>
+          <li>Dançar</li>
+          <li>Cantar no Karaokê</li>
+          <li>Passear pela cidade</li>
+          <li>Montar Quebra Cabeças</li>
+          <li>Ler ficções</li>
+          <li>Assistir filmes</li>
+        </ul>
+        <p>Pronto, aí está. Fácil, sem dores. O mais difícil foi lembrar os filmes preferidos, porque eu nunca sei o que escolher, uma vez que minha memória é bem ruim de títulos... Mas é isso aí! Exercício finalizado. Eu gostaria de deixar mais bonitinha essa lista, talvez com cor diferente, ou mesmo outra fonte e tal, mas não quero mexer com estilo agora e, além disso, o desafio "Elas Codam" nem começou a apresentar essa parte ainda, então vou deixar quieto... Quem sabe mais tarde... </p>
+        <p>Mais coisas importantes sobre as listas:</p>
+        <ul>
+          <li>As listas ordenadas podem começar com um número diferente do 1, pra isso, basta criar um atributo "start" para a "ol" e incluir a posição de início;</li>
+          <li>Listas ordenadas também podem começar de trás pra frente, pra isso é usado o atributo "reversed";</li>
+          <li>Dá pra criar listas dentro de listas:</li>
+            <ul>
+              <li>Assim!</li>
+              <li>Serve</li>
+              <li>Pra</li>
+              <li>Irritar</li>
+              <li>o Usuário</li>
+            </ul>
+          <li>O atributo "type" serve pra mostrar o tipo de número, numa lista ordenada... Pode ser romanos maiúscula ou minúscula... Mas isso também dá pra fazer com o CSS.
+        </ul>
+        
+        <p>Como estou usando esse espaço para falar sobre coisas que aprendi nos cursos, achei uma função muito interessante, ensinada no desafio, que é o link para o topo... Eu não precisava ter criado um botão com uma função JavaScript pra subir ao topo, poderia, simplesmente, criar um link pro topo, dentro de um &lt;div> e no CSS estilizar para que parecesse um botão... Aí é claro que seria um engodo, mas... é bom aprender essas coisas também. Vou mostra um exemplo:</p>
+        <div><a href="#top">Voltar ao Topo!</a></div>
+        <p>Mas aí eu teria que arrumar mais coisas no CSS também, pra deixar uma borda, a localização do link, um quadrado mais bonitin... Essas coisas... E, affe, tinha mais uma coisa que achei legal anotar, pensei que talvez fosse melhor deixar pra anotar depois, e agora esqueci... talvez seja a tag "span" que funciona como a "div" mas pra linhas...</p>
+        <div>
+          <button onclick="voltar()" class="bvoltar">Voltar ao menu principal
+          </button>    
+        </div>
+    </section>
+
+    <section id="atv5">
+      <h2> Atividade 5 (desafio Elas Codam) - Imagens e Links</h2>
+      
+      <p>A segunda atividade do desafio Elas Codam (já coloquei um link, então não colocarei de novo...) é a inclusão de três imagens... Então achei legal colocar os certificados dos cursos que já completei!</p>
+        <h3> Certificados DIO </h3>
+        <img src="certificados/Certificado1.png" class="imagens" alt="Certificado de Estruturas de dados e Algoritmos em nome da autora.">
+        <img src="certificados/Certificado2.png" class="imagens"alt="Certificado de Lógica de programação essencial em nome da autora.">
+        <img src="certificados/Certificado3.png" class="imagens"alt="Certificado de Git e GitHub em nome da autora."><br>
+      <div><button onclick="voltar()" class="bvoltar">Voltar ao menu principal</button></div>
+    </section>
+        
+    <section id="atv6">
+      <h2> Atividade 6 - Novo curso Alura</h2>
+      <p>A essa altura eu deveria estar fazendo uma página pra cada curso e atividade, mas estou com um pouco de preguiça pra isso, e estou fazendo um curso que não tem nada a ver com CSS e JS, o que disseram que não era uma boa alternativa, já que o ideal é focar em uma linguagem e aprender tudo o máximo possível.</p>
+      <p>Entretanto, estou fazendo esse curso do Alura, pago pelo governo estadual do Paraná e eles têm um ciclo específico de ensino, o qual estou seguindo... (emoji da pessoa erguendo ombrinhos e mãos viradas pra cima)</p>
+      <p>Aprendi a fazer o jogo <i>pong</i> no <b>Scratch.</b> Veja ele aí:</p>
+      
+      <section>
+        <iframe src="https://scratch.mit.edu/projects/659816867/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+      </section>
+      <div><button onclick="voltar()" class="bvoltar">Voltar ao menu principal</button></div>
+    </section>
+        <!--https://pt.stackoverflow.com/questions/319424/tem-como-colocar-uma-imagem-em-cima-de-um-bot%C3%A3o-ou-na-background como descobri como colocar imagem no background do botão-->
+    
+    <script src="script.js"></script>
+  </body>
+</html>
